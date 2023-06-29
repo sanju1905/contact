@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#efefef;
+    font-family: sans-serif;
+    background-color: black;
+    
+    
+    
+    
+    /* background-image: url(./Website/images/correct.jpg); */
+
+}
+.contact-box
+{
+    width: 500px;
+    background-image: url('about2.jpg'); 
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    
+    
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border:1px solid #777;
+    border-radius: 14px;
+    outline: none;
+   background-color: transparent;
+   color: white ;
+   font-size: 30px
+    
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn
+{
+    margin-top: 20px;
+    
+    transform:scale(1.3);
+    transition:  .3s;
+   
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #47c35a;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+}
